@@ -1,0 +1,685 @@
+Você é um desenvolvedor front-end sênior especializado em direção de arte digital, UI/UX, sites editoriais e experiências premium para assessorias de casamento.
+
+Sua tarefa é trabalhar diretamente no projeto existente e entregar o site final funcionando. Analise todos os arquivos HTML, CSS, JavaScript e as imagens disponíveis antes de fazer as alterações.
+
+Não escreva outro prompt, briefing, tutorial ou explicação genérica. Faça as mudanças diretamente no código, revise o resultado completo e entregue o projeto pronto.
+
+# 1. OBJETIVO DO PROJETO
+
+Transforme o site atual em uma experiência elegante, autêntica, emocional e profissional para uma assessoria de casamentos.
+
+O resultado deve parecer uma combinação entre:
+
+- Site de uma assessoria de casamento de alto padrão.
+- Editorial de moda e casamento.
+- Livro de fotografia.
+- Portfólio autoral.
+- Apresentação comercial discreta e sofisticada.
+
+O site não deve parecer um template genérico de casamento. Evite excesso de cards iguais, seções repetitivas, títulos sempre centralizados, ícones genéricos, ornamentos românticos óbvios e blocos previsíveis.
+
+A experiência deve valorizar principalmente as fotografias, a personalidade da profissional, sua maneira de trabalhar e a segurança transmitida ao casal.
+
+O site precisa ser bonito, mas também fácil de navegar, fácil de ler e direcionado para gerar pedidos de orçamento.
+
+# 2. REFERÊNCIAS VISUAIS E ESTRUTURAIS
+
+Use como referência de qualidade, ritmo e direção de arte:
+
+- https://claudiasantoseventos.com.br/
+- https://www.coeur-weddings.com/
+- https://www.bashplease.com/
+- https://www.thedestinationwedding.co/you
+- https://sinclairandmoore.com/
+
+Não copie textos, identidade visual, composição exata ou elementos exclusivos dessas empresas.
+
+Use as referências para compreender e aplicar:
+
+- Fotografias grandes e bem posicionadas.
+- Composições editoriais assimétricas.
+- Alternância entre imagens amplas e detalhes menores.
+- Uso generoso e intencional de espaço em branco.
+- Tipografia elegante e expressiva.
+- Contraste entre fundos claros e escuros.
+- Textos curtos, humanos e bem distribuídos.
+- Mudanças de ritmo ao longo da página.
+- Apresentação dos serviços como experiências, não apenas como produtos.
+- Portfólio com aparência de ensaio fotográfico.
+- Chamadas para contato elegantes e objetivas.
+- Movimento sutil, suave e sofisticado.
+
+O site deve ter personalidade própria e usar os dados e imagens reais encontrados no projeto.
+
+# 3. AUDITORIA DO CONTEÚDO
+
+Leia integralmente a seção DADOS DO NEGÓCIO localizada no final deste pedido.
+
+Considere os DADOS como a fonte oficial do projeto.
+
+Também examine:
+
+- Os textos já existentes no site.
+- Todas as imagens da pasta `images/`.
+- Nomes de arquivos que possam indicar o conteúdo das imagens.
+- Informações de contato existentes.
+- Links para WhatsApp e Instagram.
+- Textos de serviços, biografia, avaliações e depoimentos.
+- Possíveis arquivos de logo.
+
+Organize as informações automaticamente nas seções corretas. Eu não vou indicar manualmente onde cada dado deve entrar.
+
+Não invente:
+
+- Quantidade de eventos realizados.
+- Anos de experiência.
+- Prêmios.
+- Formação.
+- Equipe.
+- Cidades atendidas.
+- Avaliações.
+- Depoimentos.
+- Endereço.
+- Serviços.
+- Resultados ou qualquer outra informação factual.
+
+Se algum dado não estiver disponível, reformule a seção para funcionar sem ele, use um marcador discreto entre colchetes ou oculte o elemento. Não apresente informações falsas como se fossem reais.
+
+Remova ou corrija qualquer informação antiga do site que contradiga os DADOS.
+
+# 4. IDENTIDADE VISUAL
+
+Crie uma identidade elegante, calorosa, editorial e contemporânea.
+
+A base visual deve combinar:
+
+- Creme ou marfim no fundo principal.
+- Grafite profundo ou preto levemente quente nas áreas escuras.
+- Dourado suave, champanhe ou caramelo como destaque.
+- Branco quente para textos sobre fundos escuros.
+- Uma cor secundária muito discreta retirada das fotografias, caso combine com o material disponível.
+
+Não utilize dourado brilhante, rosa excessivamente feminino, degradês artificiais, sombras pesadas ou muitos efeitos decorativos.
+
+Use linhas finas, numeração de seções, pequenas legendas editoriais, molduras discretas, iniciais ou monograma para criar uma assinatura visual reconhecível.
+
+Não use clichês como:
+
+- Alianças.
+- Corações.
+- Coroas.
+- Pombas.
+- Ramos florais genéricos.
+- Ícones de noivos.
+- Ornamentos excessivos.
+
+# 5. TIPOGRAFIA
+
+Substitua a fonte principal atual por uma opção mais legível, mantendo o estilo editorial e sofisticado.
+
+Use:
+
+- `DM Serif Display` para títulos, frases de impacto, citações e elementos editoriais.
+- `Manrope` para parágrafos, menu, botões, formulários, legendas e informações funcionais.
+
+Importe corretamente as fontes nos pesos necessários.
+
+Defina uma estrutura equivalente a:
+
+- `--font-heading: "DM Serif Display", Georgia, serif;`
+- `--font-body: "Manrope", Arial, sans-serif;`
+
+Regras obrigatórias de legibilidade:
+
+- Texto normal com tamanho mínimo próximo de 16px.
+- Peso mínimo 400 nos parágrafos.
+- Entrelinha entre 1.6 e 1.75 nos textos longos.
+- Linhas de texto com aproximadamente 60 a 70 caracteres.
+- Títulos com entrelinha entre 1.02 e 1.12.
+- Itálico somente como detalhe editorial.
+- Não use fontes manuscritas em informações importantes.
+- Não escreva parágrafos inteiros em letras maiúsculas.
+- Letras maiúsculas podem aparecer somente em menus, botões, etiquetas e pequenas legendas.
+- Garanta contraste suficiente entre texto e fundo.
+
+Os títulos podem ser expressivos, mas nunca difíceis de ler.
+
+# 6. LOGO TIPOGRÁFICO E FAVICON
+
+Procure primeiro por um logo verdadeiro nos arquivos do projeto e nas informações dos DADOS.
+
+Considere como possíveis logos arquivos com nomes como:
+
+- `logo.png`
+- `logo.jpg`
+- `logo.webp`
+- `logo.svg`
+- Arquivos semelhantes que claramente representem a marca.
+
+Se existir um logo real e adequado, preserve-o.
+
+Se não existir um logo real, substitua completamente o logo atual por um logo tipográfico criado diretamente em HTML e CSS, sem depender de imagem.
+
+Use o nome oficial encontrado nos DADOS.
+
+O logo deve ter:
+
+- Nome principal em `DM Serif Display`.
+- Aparência editorial, elegante e fácil de ler.
+- Nome secundário ou descrição do negócio em `Manrope`, caso essa informação exista.
+- Texto secundário menor e com espaçamento suave entre as letras.
+- Versão clara para fundos escuros.
+- Versão grafite para fundos claros.
+- Proporções adequadas para cabeçalho, menu mobile e rodapé.
+- Boa leitura em celulares.
+- Nenhuma quebra inadequada do nome.
+
+Remova referências ao logo antigo quando ele não representar a identidade verdadeira do negócio.
+
+Crie também um favicon em SVG por meio do próprio código. Use um monograma formado pelas iniciais do nome oficial do negócio:
+
+- Fundo grafite ou preto quente.
+- Iniciais em dourado suave ou creme.
+- Composição limpa e centralizada.
+- Boa leitura mesmo em tamanho pequeno.
+- Sem ícones genéricos de casamento.
+
+Salve como `images/favicon.svg` e conecte corretamente o arquivo a todas as páginas HTML.
+
+# 7. ESTRUTURA DO SITE
+
+Mantenha uma página inicial completa e uma página separada de portfólio. Crie outra página somente se houver uma justificativa real de conteúdo e navegação.
+
+Não transforme o projeto em um site excessivamente complexo.
+
+## 7.1 Cabeçalho
+
+Crie um cabeçalho refinado, leve e funcional.
+
+Na página inicial:
+
+- Posicione-o inicialmente sobre a imagem do hero.
+- Use logo e links claros quando estiver sobre uma imagem escura.
+- Ao rolar, aplique um fundo grafite ou creme com boa legibilidade.
+- Use uma transição suave.
+- Mantenha um botão ou link de contato visível sem deixá-lo agressivo.
+
+Menu sugerido:
+
+- Sobre
+- Serviços
+- Processo
+- Portfólio
+- Depoimentos
+- Contato
+
+No celular:
+
+- Crie um botão de menu claramente visível.
+- Use um painel de navegação elegante e fácil de fechar.
+- Bloqueie corretamente a rolagem da página enquanto o menu estiver aberto.
+- Garanta funcionamento por teclado.
+- Inclua estados de foco.
+
+## 7.2 Hero da página inicial
+
+Crie uma abertura cinematográfica usando a melhor fotografia horizontal disponível.
+
+O hero deve ocupar grande parte da primeira tela e incluir:
+
+- Nome do negócio.
+- Uma frase curta de posicionamento.
+- Uma breve apresentação.
+- Um botão principal de contato.
+- Um link secundário para visualizar o portfólio.
+
+A fotografia deve continuar sendo protagonista. Não cubra a imagem com textos longos.
+
+Use uma camada escura suave apenas quando necessária para garantir leitura.
+
+Adicione uma entrada sutil de texto, uma pequena indicação de rolagem ou um movimento muito lento na imagem. Não use efeitos chamativos.
+
+## 7.3 Faixa de confiança
+
+Logo depois do hero, crie uma faixa curta com informações reais relevantes, caso existam nos DADOS.
+
+Ela pode apresentar:
+
+- Cidade ou região atendida.
+- Tipo de evento.
+- Nota e quantidade de avaliações.
+- Atendimento personalizado.
+- Outra característica comprovada.
+
+Não invente números para preencher espaço.
+
+Se não houver estatísticas suficientes, transforme essa área em uma frase-manifesto curta.
+
+## 7.4 Manifesto da marca
+
+Crie uma seção curta e visualmente marcante que explique a essência do trabalho.
+
+Use:
+
+- Uma frase editorial grande.
+- Um pequeno texto complementar.
+- Composição assimétrica.
+- Espaço em branco.
+- Uma palavra ou trecho em itálico para criar ritmo.
+
+O texto deve comunicar cuidado, tranquilidade, organização e presença, sem usar frases genéricas demais.
+
+## 7.5 Sobre a profissional ou empresa
+
+Apresente a história em uma composição editorial, evitando o padrão simples de “foto de um lado e texto do outro” sem personalidade.
+
+Use, conforme as imagens disponíveis:
+
+- Uma fotografia vertical principal.
+- Uma imagem menor parcialmente deslocada ou sobreposta.
+- Uma legenda discreta.
+- Um título humano.
+- Texto dividido em parágrafos curtos.
+- Uma assinatura tipográfica ou detalhe visual.
+
+Apresente quem está por trás da assessoria, sua visão e sua maneira de acompanhar os casais.
+
+Não invente uma história pessoal.
+
+## 7.6 Serviços
+
+Não mostre todos os serviços em cards idênticos.
+
+Apresente-os como formas diferentes de acompanhamento. Cada serviço deve ter:
+
+- Nome.
+- Número editorial, como 01, 02 e 03.
+- Explicação curta.
+- Indicação de para quem é adequado.
+- Imagem relacionada, quando houver.
+- Link ou botão para conversar.
+
+Alterne a composição das linhas:
+
+- Imagem à esquerda e texto à direita.
+- Texto à esquerda e imagem à direita.
+- Uma opção de maior destaque ocupando uma largura diferente.
+
+Em telas pequenas, reorganize tudo em uma única coluna e preserve a ordem de leitura.
+
+Use apenas os serviços encontrados nos DADOS.
+
+## 7.7 Processo de contratação
+
+Adicione uma seção chamada “Como funciona” ou um nome semelhante coerente com a identidade.
+
+Apresente o processo em aproximadamente quatro etapas, adaptadas às informações reais:
+
+1. Primeiro contato.
+2. Conversa e entendimento das necessidades.
+3. Planejamento e acompanhamento.
+4. Realização do evento.
+
+Se os DADOS explicarem outro processo, use o processo real.
+
+Crie uma linha do tempo sofisticada, com números, linhas finas e textos curtos. Não use ícones genéricos.
+
+## 7.8 Pausa visual
+
+Entre as seções mais informativas, adicione uma fotografia em largura total com uma frase curta.
+
+A imagem deve funcionar como uma pausa emocional e dar ritmo à navegação.
+
+Não exagere na quantidade de texto nem aplique efeitos pesados.
+
+## 7.9 Portfólio na página inicial
+
+Crie uma prévia do portfólio com aparência de livro de fotografia.
+
+A composição deve misturar:
+
+- Imagem horizontal ampla.
+- Fotografia vertical.
+- Close de detalhes.
+- Momentos espontâneos.
+- Espaços vazios intencionais.
+- Legendas pequenas, somente quando houver informação real.
+
+Evite uma grade rígida com todas as fotos do mesmo tamanho.
+
+Inclua um botão elegante para abrir `portfolio.html`.
+
+## 7.10 Projeto ou evento em destaque
+
+Se houver informações suficientes, escolha um evento para apresentar como destaque.
+
+Use:
+
+- Uma fotografia ampla.
+- Nome ou tipo do evento.
+- Local, somente se informado.
+- Pequeno contexto.
+- Link para visualizar mais imagens.
+
+Se não houver dados suficientes para identificar um evento, crie apenas uma composição visual intitulada “Histórias em imagens”, sem inventar nomes, locais ou casais.
+
+## 7.11 Depoimentos e avaliações
+
+Use somente depoimentos reais encontrados nos DADOS.
+
+Apresente um depoimento principal com bastante espaço e boa tipografia, em vez de vários cards iguais.
+
+Se houver mais de um depoimento:
+
+- Use uma navegação simples.
+- Não execute carrossel automático rápido.
+- Permita avançar manualmente.
+- Mantenha o texto legível.
+
+Se houver apenas nota e quantidade de avaliações, apresente esses dados com clareza e inclua um link para a fonte quando estiver disponível.
+
+Se não houver depoimento real, não invente um. Oculte a seção ou identifique qualquer demonstração claramente como “Depoimento de exemplo”.
+
+## 7.12 Perguntas frequentes
+
+Crie uma seção de perguntas frequentes somente com informações confirmadas.
+
+Use um acordeão acessível e discreto.
+
+Possíveis assuntos, apenas quando houver base nos DADOS:
+
+- Região atendida.
+- Antecedência necessária.
+- Tipos de assessoria.
+- Forma de contato.
+- Funcionamento da primeira conversa.
+- Serviços incluídos.
+
+Não invente políticas, preços, prazos ou condições.
+
+## 7.13 Contato
+
+Crie uma conclusão acolhedora e objetiva.
+
+Inclua:
+
+- Uma frase convidativa.
+- WhatsApp.
+- Instagram.
+- E-mail, caso exista.
+- Cidade ou região atendida.
+- Formulário curto, se fizer sentido.
+
+Campos sugeridos:
+
+- Nome.
+- Telefone ou WhatsApp.
+- Data do evento.
+- Cidade.
+- Tipo de serviço.
+- Mensagem.
+
+Se não existir um sistema de envio configurado, não simule que a mensagem foi enviada. Encaminhe os dados para o WhatsApp ou utilize um link de e-mail de forma transparente.
+
+Todos os botões de WhatsApp precisam usar o número real encontrado nos DADOS.
+
+Se o número não estiver disponível:
+
+- Não use `https://wa.me/` vazio.
+- Não crie número fictício.
+- Oculte o botão ou deixe um marcador claro para configuração.
+
+Crie uma mensagem inicial de WhatsApp curta, educada e adequada ao contexto do site.
+
+## 7.14 Rodapé
+
+Inclua:
+
+- Logo tipográfico.
+- Descrição curta.
+- Links de navegação.
+- Contatos reais.
+- Redes sociais reais.
+- Informação de direitos autorais.
+- A frase “Rascunho para avaliação — não publicado”, em texto pequeno.
+
+Não mostre links sem destino.
+
+# 8. PÁGINA DE PORTFÓLIO
+
+Melhore `portfolio.html` e transforme essa página em uma experiência editorial própria.
+
+Ela deve incluir:
+
+- Cabeçalho consistente com o restante do site.
+- Introdução curta.
+- Título expressivo e legível.
+- Fotografias organizadas como narrativa visual.
+- Mistura de formatos e proporções.
+- Legendas discretas quando houver informação real.
+- Visualização ampliada das imagens.
+- Navegação por teclado na galeria.
+- Botão final para entrar em contato.
+- Rodapé completo.
+
+A galeria não deve parecer apenas uma grade automática. Organize as imagens como páginas de um ensaio:
+
+- Comece com uma imagem de impacto.
+- Alterne cenas amplas e detalhes.
+- Misture imagens horizontais e verticais.
+- Evite colocar fotografias visualmente semelhantes lado a lado.
+- Preserve os rostos e pontos importantes no recorte.
+- Não estique imagens.
+- Use `object-fit` e `object-position` de forma cuidadosa.
+
+## Correção obrigatória do cabeçalho do portfólio
+
+Atualmente, o cabeçalho da página de portfólio usa texto branco sobre um fundo claro, deixando logo e links quase invisíveis.
+
+Corrija esse problema de forma específica.
+
+No início de `portfolio.html`:
+
+- Use logo em grafite escuro.
+- Use descrição do logo em grafite ou cinza escuro.
+- Use links do menu em grafite.
+- Mantenha o item ativo “Portfólio” destacado em dourado.
+- Use o ícone do menu mobile em grafite.
+- Aplique fundo creme sólido ou levemente translúcido.
+- Adicione uma linha inferior discreta para separar o cabeçalho do conteúdo.
+
+Depois da rolagem, o cabeçalho pode assumir fundo grafite, alterando automaticamente logo, links e ícones para branco.
+
+Não dependa somente de JavaScript para definir as cores iniciais. Adicione uma classe específica no HTML e no CSS, como `header--internal` ou equivalente, para garantir o contraste correto desde o primeiro carregamento.
+
+A correção não pode prejudicar o cabeçalho transparente da página inicial sobre a fotografia do hero.
+
+# 9. TRATAMENTO DAS IMAGENS
+
+Use somente arquivos locais encontrados na pasta `images/`.
+
+Não utilize:
+
+- Imagens externas.
+- Bancos de imagens.
+- URLs da internet.
+- Placeholders remotos.
+- Fotografias inventadas.
+- Imagens geradas sem solicitação.
+- Capturas de tela de redes sociais como fotografia principal.
+- Flyers ou artes promocionais no hero.
+
+Antes de montar a galeria:
+
+- Examine dimensões e proporções das imagens.
+- Identifique retratos, cenas amplas, detalhes e bastidores.
+- Escolha a melhor fotografia para cada função.
+- Evite repetições.
+- Crie uma sequência visual coerente.
+- Adicione texto alternativo descritivo.
+- Use carregamento preguiçoso fora da primeira tela.
+- Defina largura e altura quando possível para evitar mudanças de layout.
+- Otimize sem destruir a qualidade visual.
+
+Se houver poucas imagens, não repita a mesma fotografia muitas vezes. Prefira uma página mais curta e bem composta.
+
+# 10. ANIMAÇÕES E INTERAÇÕES
+
+Adicione movimentos suaves que reforcem a sensação premium.
+
+Use:
+
+- Entrada de textos com leve deslocamento vertical.
+- Revelação progressiva de imagens.
+- Máscaras ou recortes discretos.
+- Pequeno efeito de zoom em fotografias durante o hover.
+- Transições suaves no cabeçalho.
+- Movimento muito sutil no hero.
+- Feedback visual nos botões.
+- Abertura elegante do menu mobile.
+- Lightbox suave no portfólio.
+
+As animações devem ser discretas e não podem atrapalhar a leitura.
+
+Evite:
+
+- Movimentos rápidos.
+- Objetos flutuando sem propósito.
+- Parallax exagerado.
+- Cursor personalizado invasivo.
+- Animações contínuas.
+- Carrosséis automáticos rápidos.
+- Efeitos que prejudiquem o desempenho.
+
+Respeite `prefers-reduced-motion` e desative movimentos não essenciais quando essa preferência estiver ativa.
+
+# 11. RESPONSIVIDADE
+
+O desenvolvimento deve ser mobile-first e funcionar corretamente em:
+
+- Celulares pequenos.
+- Celulares grandes.
+- Tablets.
+- Notebooks.
+- Monitores largos.
+
+Revise especialmente:
+
+- Tamanhos dos títulos.
+- Quebras do logo.
+- Espaçamento lateral.
+- Ordem das imagens e textos.
+- Menu mobile.
+- Botões.
+- Formulário.
+- Galeria.
+- Lightbox.
+- Rodapé.
+- Textos sobre fotografias.
+
+Nenhum elemento pode ultrapassar a largura da tela ou criar rolagem horizontal.
+
+Use unidades fluidas e `clamp()` quando fizer sentido.
+
+# 12. ACESSIBILIDADE
+
+Garanta:
+
+- Contraste adequado.
+- HTML semântico.
+- Hierarquia correta de títulos.
+- Textos alternativos.
+- Foco visível.
+- Navegação por teclado.
+- Botões com rótulos compreensíveis.
+- Menu mobile acessível.
+- Acordeão acessível.
+- Lightbox acessível.
+- Campos de formulário com rótulos.
+- Áreas clicáveis confortáveis.
+- Compatibilidade com redução de movimento.
+
+Não use texto branco sobre fundo claro ou texto escuro sobre fundo escuro em nenhuma página.
+
+# 13. SEO E DESEMPENHO
+
+Configure em todas as páginas:
+
+- Título apropriado.
+- Meta description baseada nos dados reais.
+- Idioma `pt-BR`.
+- Favicon.
+- Open Graph básico.
+- URLs e links internos corretos.
+- Descrições alternativas nas imagens.
+- Estrutura semântica.
+- Carregamento eficiente das fontes.
+- Carregamento preguiçoso das imagens abaixo da dobra.
+
+Não coloque informações inventadas nos metadados.
+
+Mantenha o projeto leve. Não adicione frameworks pesados apenas para realizar animações simples.
+
+# 14. REGRAS TÉCNICAS
+
+Trabalhe preferencialmente com a estrutura atual de HTML, CSS e JavaScript.
+
+Você pode reorganizar e reescrever o código quando necessário, mas:
+
+- Não quebre caminhos existentes sem atualizar todas as referências.
+- Não apague imagens reais.
+- Não deixe links vazios.
+- Não deixe botões sem função.
+- Não use conteúdo Lorem Ipsum.
+- Não deixe blocos claramente inacabados.
+- Não crie dependências desnecessárias.
+- Não use caminhos absolutos do computador.
+- Use caminhos relativos.
+- Preserve a pasta `images/`.
+- Garanta que a navegação entre `index.html` e `portfolio.html` funcione.
+- Garanta que links com âncoras retornem corretamente à página inicial.
+- Remova código duplicado ou sem uso.
+- Organize o CSS por seções.
+- Corrija erros do console.
+
+Se criar SVG para o favicon, gere um SVG válido como arquivo real e conecte-o corretamente ao HTML.
+
+# 15. RESULTADO ESPERADO
+
+O resultado final deve transmitir:
+
+- Elegância sem ostentação.
+- Confiança.
+- Organização.
+- Sensibilidade.
+- Autenticidade.
+- Cuidado com os detalhes.
+- Qualidade editorial.
+- Personalidade própria.
+
+As fotografias devem ter espaço para contar a história. O visitante deve sentir que está folheando um livro de casamento cuidadosamente editado, e não navegando por um template comum.
+
+Ao terminar:
+
+1. Revise todas as páginas.
+2. Teste todos os links.
+3. Teste o menu no desktop e no celular.
+4. Teste a página de portfólio.
+5. Teste o lightbox.
+6. Teste os botões de contato.
+7. Verifique o contraste dos textos.
+8. Verifique o novo logo e o favicon.
+9. Verifique se nenhuma informação foi inventada.
+10. Verifique se não existem erros no console.
+11. Entregue os arquivos finais funcionando.
+12. Apresente apenas um resumo curto das mudanças realizadas, sem responder com outro plano ou prompt.
+
+# DADOS DO NEGÓCIO
+
+A partir daqui, vou colar todas as informações brutas que encontrei sobre o negócio.
+
+Você deve ler, interpretar, organizar, eliminar repetições e distribuir automaticamente as informações nas partes corretas do site.
+
+Não exija que eu reorganize os dados por campos e não peça que eu repita informações em outras partes deste pedido.
+
+[COLE AQUI TODAS AS INFORMAÇÕES ENCONTRADAS SOBRE O NEGÓCIO]
